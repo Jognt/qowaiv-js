@@ -15,12 +15,17 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "eslint": "eslint ./src"
   },
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^9.18.0",
+    "@eslint/css": "^1.1.0",
+    "@eslint/js": "^9.39.4",
+    "@eslint/json": "^1.2.0",
+    "eslint": "^10.2.1",
+    "globals": "^14.0.0",
     "typescript": "^5.7.3",
+    "typescript-eslint": "^8.59.0",
     "vitest": "^3.0.5"
   },
   "publishConfig": {
