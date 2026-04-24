@@ -16,7 +16,8 @@
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
-    "eslint": "eslint ./src"
+    "eslint": "eslint ./src",
+    "eslint:fix": "eslint ./src --fix"
   },
   "devDependencies": {
     "@eslint/css": "^1.1.0",
